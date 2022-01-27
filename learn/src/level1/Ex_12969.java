@@ -24,6 +24,7 @@ public class Ex_12969 {
                 }
             }
              System.out.println();
+             
         }
 
 	}
