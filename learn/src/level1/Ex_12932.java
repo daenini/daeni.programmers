@@ -27,3 +27,4 @@ public class Ex_12932 {
         return answer;
     }
 }
+
