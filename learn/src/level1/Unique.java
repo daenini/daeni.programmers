@@ -2,7 +2,7 @@ package level1;
 
 import java.util.ArrayList;
 
-public class No_1 {
+public class Unique {
 
     public static void main(String[] args) {
         int[] num = {5,6,3,1,2,4,5,6,1,1,8,9};
