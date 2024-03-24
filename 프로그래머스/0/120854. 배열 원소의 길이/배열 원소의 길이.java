@@ -10,3 +10,13 @@ class Solution {
         return answer;
     }
 }
+
+
+// 다른 사람 풀이
+import java.util.Arrays;
+
+class Solution {
+    public int[] solution(String[] strList) {
+        return Arrays.stream(strList).mapToInt(String::length).toArray();
+    }
+}
