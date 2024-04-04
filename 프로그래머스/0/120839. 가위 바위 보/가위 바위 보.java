@@ -7,13 +7,13 @@ class Solution {
             switch (str) {
                 case "2" :
                     answer += "0";
-                    continue;
+                    break;
                 case "0" : 
                     answer += "5";
-                    continue;
+                    break;
                 case "5" : 
                     answer += "2";
-                    continue;
+                    break;
             }
         }
         
