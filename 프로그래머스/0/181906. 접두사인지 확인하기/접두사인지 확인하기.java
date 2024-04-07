@@ -19,3 +19,27 @@ class Solution {
         return answer;
     }
 }
+
+
+// 다른사람 풀이
+/*
+// String.startsWith 사용
+class Solution {
+    public int solution(String my_string, String is_prefix) {
+        if (my_string.startsWith(is_prefix)) return 1;
+        return 0;
+    }
+}
+
+// Stream 사용
+import java.util.*;
+import java.util.stream.*;
+
+class Solution {
+    public int solution(String myString, String isPrefix) {
+        return IntStream.rangeClosed(0, myString.length())
+            .mapToObj(i -> myString.substring(0, i))
+            .anyMatch(s -> s.equals(isPrefix)) ? 1 : 0;
+    }
+}
+*/
